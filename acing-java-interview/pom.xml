@@ -291,13 +291,13 @@
 				<artifactId>jaxb2-maven-plugin</artifactId>
 				<version>1.5</version>
 				<executions>
-<!-- 					<execution> -->
-<!-- 						<id>xjc</id> -->
-<!-- 						<phase>generate-sources</phase> -->
-<!-- 						<goals> -->
-<!-- 							<goal>xjc</goal> -->
-<!-- 						</goals> -->
-<!-- 					</execution> -->
+					<execution>
+						<id>xjc</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>xjc</goal>
+						</goals>
+					</execution>
 				</executions>
 				<configuration>
 					<schemaFiles>team2.xsd</schemaFiles>
