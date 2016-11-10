@@ -8,6 +8,11 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * 삽입정렬 알고리즘
+ * @author user
+ *
+ */
 public class InsertSort {
 
 public static List<Integer> insertSort(final List<Integer> numbers) {
